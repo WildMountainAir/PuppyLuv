@@ -22,20 +22,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ## Introduction
 
-View available puppies in your area, save puppies to your wishlist, view puppies specific to your lifestyle. You can share available puppies to your social networks or via email. 
+ Pet lovers can search their next fur baby best matching their needs. Once a user finds a puppy, they can then reference a shelter’s web page and discover what services are offered. PuppyLuv's database of available puppies is made up of animal-care professionals and volunteers for their local animal welfare organizations all working together to maintain active and accurate homeless pet lists through [Petfinder's API](https://www.petfinder.com/developers/).
 
 ## Features
 
 A few of the things you can do with PuppyLuv:
-
-* View available puppies
-* View puppies good with kids
-* View puppies good with the mountain lifestyle
-* View puppies good with small spaces
-* Save puppies to a wishlist
-* Share puppies on social networks or via email
-* Log in
-
+* Search available puppies in your area
+* Save puppies to your wishlist
+* View puppies specific to your lifestyle
+* Share puppies through your social networks or via email
+<!-- * Search for and display pet listings based on pet characteristics, location, and status.
+* Search for and display animal welfare organizations based on organization name, ID, and location.
+* Display a random selection of available pets on a webpage; set up pages to display pets in various categories; 
+* Search for adoptable pets based on a number of criteria; or display profiles of local organizations. -->
 <!-- <p align="center">
   <img src = "" width=700>
 </p>
@@ -114,3 +113,6 @@ Support this project by [becoming a sponsor](www.venmo.com/lvlyali)
  Your logo will show up here with a link to your website. 
 
 ## Acknowledgments
+![petfinder](https://www.petfinder.com/wp-content/themes/petfinder/img/pet_finder_logo_tm.png)
+<br />
+The Petfinder API allows you to access the Petfinder database of hundreds of thousands of pets ready for adoption and over ten thousand animal welfare organizations. You can use the API to build your own dynamic websites or applications backed by the same data used on [Petfinder.com](Petfinder.com).

@@ -1,0 +1,88 @@
+/************************
+******Custom Styles******
+*************************/
+body {
+  color: #382A5B;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  margin: 10px 22px;
+  width: auto;
+}
+.sticky {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+/************************
+**********Logos**********
+*************************/
+.header-logo {
+  height: 80px;
+  margin: 10px 0 0 0;
+}
+.icon-logo {
+  height: 15px;
+  width: 15px;
+}
+/************************
+********Jumbotron********
+*************************/
+.jumbotron-root {
+  margin: 90px 20px 0 20px;
+}
+.jumbotron-header {
+  color: #EDC17E;
+  font-weight: 500;
+}
+.jumbotron-text {
+  color: #818EB4;
+}
+/************************
+*********Puppies*********
+*************************/
+.puppy-root {
+  content-align: center;
+  width: auto;
+  height: max-content;
+  border: 2px solid #382A5B;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+}
+.puppy-card-img {
+background-clip: content-box;
+  border-radius: 10px;
+  border: 4px solid #81B4B2;
+  display: block;
+  height: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 250px;
+  /* width: 250px; */
+}
+.puppy-name {
+  font-size: 30px;
+  font-weight: 900;
+}
+.puppy-location {
+  color: #81B4B2;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 500;
+}
+.puppy-gender {
+  color: #EDC17E;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 500;
+}
+.puppy-breeds {
+  font-weight: 600;
+  font-size: 18px;
+}
+.puppy-size {
+  color: #EDC17E;
+  font-weight: 400px;
+}
