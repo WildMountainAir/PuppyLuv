@@ -1,5 +1,4 @@
-/* eslint-disable no-useless-escape */
-import React, { useState } from 'react';
+import React from 'react';
 import Puppy from './Puppy';
 import {v4 as uuid} from 'uuid';
 
@@ -5021,10 +5020,7 @@ const PuppyData = [
 // if puppy is clicked display puppy info
 // create new state to control conditional render
 // or do an onclick event that displays a modal
-
 const PuppyList = (props) => {
-//   const [clicked, setClicked] = useState(false);
-//   const [selectedPup, setSelectedPup] = useState([]);
 
   return (
       <div>
