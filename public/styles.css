@@ -37,6 +37,10 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
+.welcome-root {
+  font-size: 20px;
+  font-weight: 700;
+}
 /************************
 ********Jumbotron********
 *************************/

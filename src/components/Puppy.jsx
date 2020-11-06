@@ -57,7 +57,7 @@ const Puppy = (props) => {
                 props.puppy_trained === true ? <img className="puppy-icons" src="https://puppyluv.s3.us-east-2.amazonaws.com/trainB.png" alt="dog friendly"/> : ""
               }
           </Row>
-          <Button className="puppy-adopt puppy-link" href={props.puppy_url}>
+          <Button className="puppy-adopt puppy-link" href={props.puppy_url} target='_blank'>
             Adopt Me
           </Button>
         </div>

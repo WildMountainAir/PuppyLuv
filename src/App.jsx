@@ -6,9 +6,13 @@ import Button from 'react-bootstrap/Button';
 
 function App() {
   const [logged, setLogged] = useState(false);
+  const [surprise, setSurprise] = useState(false);
 
   const handleClick = () => {
     setLogged(!logged);
+  }
+  const boom = () => {
+    setSurprise(!surprise);
   }
   return (
     <Container fluid>
@@ -16,8 +20,8 @@ function App() {
       logged === false ?
       <div>
         <img src="https://puppyluv.s3.us-east-2.amazonaws.com/PuppyLuv_Logo_L.png" className="welcome-logo" alt="logo"/>
-        <Button onClick={handleClick} className="puppy-adopt puppy-link">
-          Show me puppies!
+        <Button onClick={handleClick} className="welcome-root puppy-adopt puppy-link">
+          Show Me Puppies!
         </Button>
       </div>
       :
@@ -55,15 +59,20 @@ function App() {
         </div>
       </Row>
       <Row>
+        {
+          surprise !== true ?
           <PuppyList />
+          :
+          <img src="https://media.giphy.com/media/9ryPZZxUAK5QRY4gLr/giphy.gif" className="welcome-logo" alt="logo"/>
+        }
       </Row>
-      <Row className="">
+      <Row>
         <img
+          onClick={boom}
           className="header-logo"
-          src="https://puppyluv.s3.us-east-2.amazonaws.com/PuppyLuv_LogoLong_M+(1).png"
+          src="https://puppyluv.s3.us-east-2.amazonaws.com/PuppyLuv_LogoLong_L.png"
           alt="logo"
         />
-        <a href="https://puppyluv.s3.us-east-2.amazonaws.com/PuppyLuv_LogoLong_M+(3).png"><p className="foot">by Alison Sipos</p></a>
       </Row>
       </div>
     }
