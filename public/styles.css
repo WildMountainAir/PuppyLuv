@@ -2,6 +2,7 @@
 ******Custom Styles******
 *************************/
 body {
+  background-color: #fbfcff;
   color: #382A5B;
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
@@ -9,7 +10,7 @@ body {
   width: auto;
 }
 .sticky {
-  background-color: white;
+  background-color: #fbfcff;
   position: fixed;
   top: 0;
   width: 100%
@@ -18,12 +19,23 @@ body {
 **********Logos**********
 *************************/
 .header-logo {
-  height: 80px;
+  height: 70px;
   margin: 10px 0 0 0;
 }
 .icon-logo {
-  height: 15px;
-  width: 15px;
+  height: 18px;
+  width: 18px;
+}
+.foot {
+  margin-top: 41px;
+  float: right;
+}
+.welcome-logo {
+  height: auto;
+  width: 90%;
+  margin-top: 150px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 /************************
 ********Jumbotron********
@@ -42,7 +54,7 @@ body {
 *********Puppies*********
 *************************/
 .puppy-root {
-  content-align: center;
+  align-content: center;
   width: auto;
   height: max-content;
   border: 2px solid #382A5B;
@@ -51,31 +63,34 @@ body {
   margin: 15px;
 }
 .puppy-card-img {
-background-clip: content-box;
+  background-clip: content-box;
   border-radius: 10px;
   border: 4px solid #81B4B2;
   display: block;
-  height: auto;
-  width: 90%;
+  height: 250px;
+  width: 250px;
   margin-left: auto;
   margin-right: auto;
   min-height: 250px;
   /* width: 250px; */
 }
 .puppy-name {
+  display: inline;
   font-size: 30px;
   font-weight: 900;
 }
 .puppy-location {
   color: #81B4B2;
-  text-align: right;
-  font-size: 15px;
+  /* float: right; */
+  font-size: 18px;
   font-weight: 500;
+  display: inline;
+  margin-bottom: 10px;
 }
 .puppy-gender {
   color: #EDC17E;
   text-align: right;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
 }
 .puppy-breeds {
@@ -83,6 +98,55 @@ background-clip: content-box;
   font-size: 18px;
 }
 .puppy-size {
-  color: #EDC17E;
+  color: #81B4B2;
   font-weight: 400px;
+  font-size: 15px;
+}
+.puppy-info {
+  font-weight: 400px;
+  font-size: 15px;
+  text-overflow: clip;
+}
+.puppy-icons {
+  height: 40px;
+  margin: 10px 0px 20px 0px;
+}
+.puppy-icons-info {
+  height: 30px;
+}
+.puppy-icon-row {
+  display: block;
+}
+.puppy-link {
+  color: #818EB4;
+  text-decoration: none;
+}
+.puppy-adopt {
+  background-color: #81B4B2;
+  border: 2px solid #382A5B;
+  border-radius: 10px;
+  color: white;
+  /* outline: none;
+  box-shadow: none; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  padding: 5px 15px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.puppy-adopt:hover:focus:active {
+  background-color: #818EB4;
+  border: 2px solid #382A5B;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  box-shadow: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  padding: 5px 15px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
