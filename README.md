@@ -1,3 +1,6 @@
+#PuppyLuv
+Pet lovers can search their next fur baby best matching their needs. Once a user finds a puppy, they can then reference a shelter’s web page and discover what services are offered. PuppyLuv's database of available puppies is made up of animal-care professionals and volunteers for their local animal welfare organizations all working together to maintain active and accurate homeless pet lists through Petfinder's API.
+
 <!-- ### Analyzing the Bundle Size
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size) -->
 <!-- ### Deployment
